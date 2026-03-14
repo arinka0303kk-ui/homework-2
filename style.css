@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* Header */
+header {
+    background-color: lightblue;
+}
+
+/* Navigation */
+nav {
+    display: inline-block;
+    width: 80%;
+}
+
+/* Только изображения в навигации */
+nav img {
+    width: 10%;
+}
+
+/* Main */
+main {
+    background-color: #f5f5f5;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background-color: lightblue;
+}
+
+/* Список - закомментировано */
+/* li {
+    display: inline-block;
+    width: 120px;
+} */
+
+/* Заголовки */
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    color: darkblue;
+}
+
+/* Абзацы */
+p {
+    line-height: 1.6;
+}
+
+/* Сетка */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: start;
+    row-gap: 20px;
+}
+
+/* Только изображения в сетке */
+.grid img {
+    width: 100%;
+}
+
+/* Flex-класс */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
